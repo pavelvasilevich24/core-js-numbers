@@ -50,7 +50,7 @@ function getCircleCircumference(r) {
  *  -3, 3  => 0
  */
 function getAverage(value1, value2) {
-  return value2 / 2 + value1 / 2;;
+  return value2 / 2 + value1 / 2;
 }
 
 /**
