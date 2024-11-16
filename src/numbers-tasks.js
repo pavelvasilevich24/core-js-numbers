@@ -233,7 +233,7 @@ function toNumber(value, def) {
  *   -2 => -8
  *   0  => 0
  */
-function getCube(num) {
+function getCube(n) {
   return n ** 3;
 }
 
@@ -254,7 +254,7 @@ function getFibonacciNumber(n) {
   let b = 1;
   let a = 0;
   let i;
-  let c;  
+  let c;
   if (n === 0) return a;
   for (i = 2; i <= n; i += 1) {
     c = a + b;
@@ -290,10 +290,9 @@ function getSumToN(num) {
  *   202 => 4  // (2+0+2)
  *   5   => 5  // 5
  */
-function getSumOfDigits(num) {
+function getSumOfDigits(n) {
   let number = n;
   let sum = 0;
-  
   while (number) {
     sum += number % 10;
     number = Math.floor(number / 10);
